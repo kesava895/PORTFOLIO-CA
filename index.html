@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kesava Nanda Pilla | Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Canvas -->
+    <canvas id="bg-canvas"></canvas>
+    
+    <!-- Glassmorphism Background Blobs -->
+    <div class="glass-blob blob-1"></div>
+    <div class="glass-blob blob-2"></div>
+    <div class="glass-blob blob-3"></div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-glow" id="cursor-glow"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">K.P.</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-toggle" id="nav-toggle">
+            <i data-lucide="menu"></i>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero section">
+            <div class="container hero-container">
+                <div class="hero-visual reveal">
+                    <div class="profile-wrapper">
+                        <div class="profile-container">
+                            <img src="my photo.jpg" alt="Kesava Nanda Pilla" class="profile-img">
+                            <div class="profile-glow"></div>
+                        </div>
+                        <div class="badge hire-badge">
+                            <span class="dot green"></span> Available for Hire
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-text reveal">
+                    <div class="intern-badge reveal">
+                        <span class="dot cyan"></span> Open to Internship Opportunities
+                    </div>
+                    <h1>Hi, I'm <span class="accent-name">Kesava Nanda Pilla</span></h1>
+                    <p class="hero-tagline">B.Tech CSE @ Lovely Professional University · Building real-world tech solutions with AI, Problem Solving, and Data Science.</p>
+                    <p class="hero-subtext">Aspiring Software Developer | Passionate about DSA + Problem Solving | Power BI & Excel</p>
+                    
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn btn-view">
+                            View Projects <i data-lucide="external-link"></i>
+                        </a>
+                        <a href="Resume_Kesava_Nanda (2).pdf" download class="btn btn-cv">
+                            Download CV <i data-lucide="download"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-contact">
+                            Contact Me <i data-lucide="mail"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>SCROLL</span>
+                <i data-lucide="chevron-down"></i>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container">
+                <h2 class="section-title reveal">About Me</h2>
+                <div class="about-grid reveal">
+                    <div class="about-content">
+                        <div class="about-text">
+                            <p>I'm a B.Tech Computer Science & Engineering student at Lovely Professional University, passionate about building systems that solve real-world problems.</p>
+                            <p>I take a hands-on approach by building projects that help me understand how real-world data systems function — from data collection and preprocessing to implementing machine learning models and deriving meaningful insights.</p>
+                            <p>Currently, I am focused on strengthening my foundations in data science, including statistics, machine learning, and data analysis, while actively working on projects that demonstrate data-driven decision making, predictive modeling, and scalable analytical solutions.</p>
+                            <p>I believe in continuous learning and building incrementally — starting with solid fundamentals before moving to advanced implementations.</p>
+                        </div>
+                        <p class="role-desc">Aspiring Software Developer | Skilled in C/C++, Java & Python | Passionate About DSA & Problem Solving</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section">
+            <div class="container">
+                <h2 class="section-title reveal">Skill Set</h2>
+                <div class="skills-grid reveal">
+                    <div class="skill-card glass">
+                        <div class="skill-icon"><i data-lucide="code-2"></i></div>
+                        <h3>Languages</h3>
+                        <div class="skill-list">
+                            <span>C</span>
+                            <span>C++</span>
+                            <span>Java</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                    <div class="skill-card glass">
+                        <div class="skill-icon"><i data-lucide="database"></i></div>
+                        <h3>Core Concepts</h3>
+                        <div class="skill-list">
+                            <span>Data Structures & Algorithms</span>
+                            <span>DBMS</span>
+                            <span>Operating Systems</span>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                    <div class="skill-card glass">
+                        <div class="skill-icon"><i data-lucide="wrench"></i></div>
+                        <h3>Tools</h3>
+                        <div class="skill-list">
+                            <span>Power BI</span>
+                            <span>Excel</span>
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>Linux</span>
+                        </div>
+                    </div>
+                    <div class="skill-card glass">
+                        <div class="skill-icon"><i data-lucide="users"></i></div>
+                        <h3>Soft Skills</h3>
+                        <div class="skill-list">
+                            <span>Problem Solving</span>
+                            <span>Adaptability</span>
+                            <span>Teamwork</span>
+                            <span>Time Management</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <h2 class="section-title reveal">Featured Projects</h2>
+                <div class="project-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card glass reveal">
+                        <div class="project-image-container">
+                            <img src="file:///C:/Users/HP/.gemini/antigravity/brain/80703dd4-ef93-4a77-a12a-aade9eab2782/media__1774112776410.png" alt="Mental Health Simulator" class="project-image">
+                        </div>
+                        <div class="project-info">
+                            <h3>Mental Health Simulator</h3>
+                            <span class="about-header">About</span>
+                            <p>An interactive simulation tool designed to model real-life mental health scenarios, helping users understand emotional responses, coping strategies, and the impact of stressors. Includes guided decision-making, mood tracking, and scenario-based outcomes.</p>
+                            <div class="tech-stack">
+                                <span>Java</span>
+                                <span>OOP</span>
+                                <span>MySQL</span>
+                                <span>GitHub</span>
+                            </div>
+                            <a href="https://github.com/kesava895/mental-health-simulator" class="github-link" target="_blank">
+                                <i data-lucide="github"></i> View Repo
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card glass reveal">
+                        <div class="project-image-container">
+                            <img src="file:///C:/Users/HP/.gemini/antigravity/brain/80703dd4-ef93-4a77-a12a-aade9eab2782/media__1774113238335.jpg" alt="Cricket AI Predictor" class="project-image">
+                        </div>
+                        <div class="project-info">
+                            <h3>Cricket AI Predictor Chatbot</h3>
+                            <span class="about-header">About</span>
+                            <p>Chat Bot – Cricket Score Predictor is an intelligent chatbot that analyzes match conditions, team performance, player stats, and historical data to predict cricket scores in real time. It delivers quick insights, win probabilities, and projected totals for smarter match analysis and fan engagement.</p>
+                            <div class="tech-stack">
+                                <span>Python</span>
+                                <span>Pandas</span>
+                                <span>Scikit-learn</span>
+                                <span>Matplotlib</span>
+                            </div>
+                            <a href="https://github.com/kesava895/Chat-Bot-Cricket-Score-Predictor-" class="github-link" target="_blank">
+                                <i data-lucide="github"></i> View Repo
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-card glass reveal">
+                        <div class="project-image-container">
+                            <img src="file:///C:/Users/HP/.gemini/antigravity/brain/80703dd4-ef93-4a77-a12a-aade9eab2782/media__1774113669684.jpg" alt="Customer Churn Analysis" class="project-image">
+                        </div>
+                        <div class="project-info">
+                            <h3>Customer Churn Analysis Dashboard</h3>
+                            <span class="about-header">About</span>
+                            <p>An interactive Power BI dashboard that analyzes customer churn and provides business insights, helping organizations retain customers through data-driven strategies.</p>
+                            <div class="tech-stack">
+                                <span>Power BI</span>
+                                <span>DAX</span>
+                                <span>Data Modeling</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications section">
+            <div class="container">
+                <h2 class="section-title reveal">Certifications</h2>
+                <div class="cert-grid">
+                    <!-- Cert 1 -->
+                    <div class="cert-card reveal">
+                        <div class="cert-org">IAMNEO</div>
+                        <h3 class="cert-title">JAVA PROGRAMMING</h3>
+                        <div class="cert-image-container">
+                            <a href="Java Programming.png">
+                                <img src="Java Programming.png" alt="Java Programming Certificate" class="cert-thumb">
+                            </a>
+                        </div>
+                        <p class="cert-desc">Comprehensive certification in Java Programming, covering core logic and advanced concepts.</p>
+                        <a href="java cert nanda .pdf" class="btn-details">VIEW DETAILS</a>
+                    </div>
+                    <!-- Cert 2 -->
+                    <div class="cert-card reveal">
+                        <div class="cert-org">IAMNEO</div>
+                        <h3 class="cert-title">DATA STRUCTURES & ALGORITHMS</h3>
+                        <div class="cert-image-container">
+                            <a href="Data Structure Algorithm.png">
+                                <img src="Data Structure Algorithm.png" alt="DSA Certificate" class="cert-thumb">
+                            </a>
+                        </div>
+                        <p class="cert-desc">Intensive course on DSA, focusing on problem-solving efficiency and algorithm design.</p>
+                        <a href="certificate dsa kesav.png.pdf" class="btn-details">VIEW DETAILS</a>
+                    </div>
+                    <!-- Cert 3 -->
+                    <div class="cert-card reveal">
+                        <div class="cert-org">IAMNEO</div>
+                        <h3 class="cert-title">OBJECT ORIENTED PROGRAMMING</h3>
+                        <div class="cert-image-container">
+                            <a href="Object Oriented Programming.png">
+                                <img src="Object Oriented Programming.png" alt="OOP Certificate" class="cert-thumb">
+                            </a>
+                        </div>
+                        <p class="cert-desc">Mastering OOP principles, design patterns, and modular software architecture in Java.</p>
+                        <a href="certificate  oops kesav.pdf" class="btn-details">VIEW DETAILS</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="extra section">
+            <div class="container">
+                <h2 class="section-title reveal">Achievements</h2>
+                <div class="achieve-grid reveal">
+                    <div class="glass has-image">
+                        <div class="achieve-content">
+                            <i data-lucide="medal" class="gold"></i>
+                            <span>Gold Medal – State Level Handball</span>
+                        </div>
+                        <a href="file:///C:/Users/HP/.gemini/antigravity/brain/80703dd4-ef93-4a77-a12a-aade9eab2782/media__1774115033899.jpg">
+                            <img src="file:///C:/Users/HP/.gemini/antigravity/brain/80703dd4-ef93-4a77-a12a-aade9eab2782/media__1774115033899.jpg" alt="Handball Gold Medal" class="achieve-thumb">
+                        </a>
+                    </div>
+                    <div class="glass has-image">
+                        <div class="achieve-content">
+                            <i data-lucide="medal" class="silver"></i>
+                            <span>Silver Medal – Inter-School Kho-Kho</span>
+                        </div>
+                        <a href="interschool kho kho kesav.jpeg">
+                            <img src="interschool kho kho kesav.jpeg" alt="Kho Kho" class="achieve-thumb">
+                        </a>
+                    </div>
+                    <div class="glass has-image">
+                        <div class="achieve-content">
+                            <i data-lucide="code" class="bronze"></i>
+                            <span>Participant – Code-A-Haunt Hackathon</span>
+                        </div>
+                        <a href="Kesav-code-e-haunt.jpeg">
+                            <img src="Kesav-code-e-haunt.jpeg" alt="Code-A-Haunt" class="achieve-thumb">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education section">
+            <div class="container">
+                <h2 class="section-title reveal">Education</h2>
+                <div class="timeline reveal">
+                    <div class="timeline-item glass">
+                        <div class="time">2023 – Present</div>
+                        <div class="content">
+                            <h3>Bachelor of Technology in Computer Science and Engineering</h3>
+                            <p>Lovely Professional University</p>
+                            <span class="cgpa">CGPA: 6.88</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item glass">
+                        <div class="time">2021 – 2023</div>
+                        <div class="content">
+                            <h3>Intermediate</h3>
+                            <p>Narayana Junior College</p>
+                            <span class="cgpa">Percentage: 95%</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item glass">
+                        <div class="time">2020 – 2021</div>
+                        <div class="content">
+                            <h3>Matriculation</h3>
+                            <p>Sri Prakash Vidya Niketan</p>
+                            <span class="cgpa">Percentage: 96%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <h2 class="section-title reveal">Get In Touch</h2>
+                <div class="contact-card glass reveal">
+                    <h3>Let's build something intelligent.</h3>
+                    <p>I am open to opportunities in AI, Backend Development, and Data Science roles.</p>
+                    <div class="contact-links">
+                        <a href="mailto:kesavanandapilla8@gmail.com" class="contact-item">
+                            <i data-lucide="mail"></i>
+                            <span>kesavanandapilla8@gmail.com</span>
+                        </a>
+                        <a href="https://linkedin.com/in/kesava-nanda" target="_blank" class="contact-item">
+                            <i data-lucide="linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/kesava895" target="_blank" class="contact-item">
+                            <i data-lucide="github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Kesava Nanda Pilla. Designed for the future.</p>
+    </footer>
+
+    <!-- Chatbot (Optional Feature) -->
+    <div class="chatbot-toggle" id="chatbot-toggle">
+        <i data-lucide="message-square"></i>
+    </div>
+    <div class="chatbot-window glass" id="chatbot-window">
+        <div class="chatbot-header">
+            <h3>AI Assistant</h3>
+            <button id="close-chat"><i data-lucide="x"></i></button>
+        </div>
+        <div class="chatbot-body" id="chatbot-body">
+            <div class="message bot">Hello! Ask me about my projects...</div>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" placeholder="Type a message...">
+            <button><i data-lucide="send"></i></button>
+        </div>
+    </div>
+
+    <!-- Portfolio Lightbox/Modal -->
+    <div id="portfolio-modal" class="modal">
+        <span class="modal-close">&times;</span>
+        <div class="modal-content-container">
+            <img class="modal-content" id="modal-img">
+            <iframe class="modal-content" id="modal-pdf" style="display: none;"></iframe>
+            <div id="modal-caption"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
