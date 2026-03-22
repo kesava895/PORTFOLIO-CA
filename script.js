@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
             setTimeout(() => {
                 const responses = [
                     "I build intelligent systems with Java, Python, and C++.",
-                    "Check out my Cricket AI Predictor, Mental Health Simulator, or Customer Churn Dashboard!",
+                    "Check out my Cricket Predictor, Mental Health Stimulator, or Customer Churn Dashboard!",
                     "I am passionate about DSA and problem solving.",
                     "You can reach me at kesavanandapilla8@gmail.com",
                     "I'm a B.Tech student at Lovely Professional University."
